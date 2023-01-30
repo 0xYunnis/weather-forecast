@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "GIM1MlAAbjtvM/8ZFid2RmL5d4wzegrSVCA8748pkC4SHE0+hu2jWDzkkZfU5DWkedqzQ4VgBvs2yx4byK4dsA==",
+  "success": true,
+  "projectFilePath": "/Users/Yunnis JIA/Projects/test1/test1/test1.csproj",
+  "expectedPackageFiles": [
+    "/Users/Yunnis JIA/.nuget/packages/microsoft.aspnetcore.spaproxy/7.0.2/microsoft.aspnetcore.spaproxy.7.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}

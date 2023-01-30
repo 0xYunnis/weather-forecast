@@ -1,0 +1,8 @@
+{
+"SpaProxyServer": {
+"ServerUrl": "https://localhost:44443",
+"LaunchCommand": "npm start",
+"WorkingDirectory": "/Users/Yunnis JIA/Projects/test1/test1/ClientApp/",
+"MaxTimeoutInSeconds": "120"
+}
+}

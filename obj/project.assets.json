@@ -1,0 +1,110 @@
+{
+  "version": 3,
+  "targets": {
+    "net7.0": {
+      "Microsoft.AspNetCore.SpaProxy/7.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0/Microsoft.AspNetCore.SpaProxy.dll": {}
+        },
+        "runtime": {
+          "lib/net7.0/Microsoft.AspNetCore.SpaProxy.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ],
+        "build": {
+          "build/Microsoft.AspNetCore.SpaProxy.targets": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Microsoft.AspNetCore.SpaProxy/7.0.2": {
+      "sha512": "Kub0nFlzMPwz6DMs6MaK0ViWR8oj5OEpKAyOqs9gxey5f6rqhYZc285dsc3c5WJLvy6HS9kjinei4BmloPvIdA==",
+      "type": "package",
+      "path": "microsoft.aspnetcore.spaproxy/7.0.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "THIRD-PARTY-NOTICES.TXT",
+        "build/Microsoft.AspNetCore.SpaProxy.targets",
+        "lib/net7.0/Microsoft.AspNetCore.SpaProxy.dll",
+        "microsoft.aspnetcore.spaproxy.7.0.2.nupkg.sha512",
+        "microsoft.aspnetcore.spaproxy.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net7.0": [
+      "Microsoft.AspNetCore.SpaProxy >= 7.0.2"
+    ]
+  },
+  "packageFolders": {
+    "/Users/Yunnis JIA/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/Users/Yunnis JIA/Projects/test1/test1/test1.csproj",
+      "projectName": "test1",
+      "projectPath": "/Users/Yunnis JIA/Projects/test1/test1/test1.csproj",
+      "packagesPath": "/Users/Yunnis JIA/.nuget/packages/",
+      "outputPath": "/Users/Yunnis JIA/Projects/test1/test1/obj/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/Users/Yunnis JIA/.nuget/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net7.0"
+      ],
+      "sources": {
+        "/usr/local/share/dotnet/library-packs": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net7.0": {
+        "targetAlias": "net7.0",
+        "dependencies": {
+          "Microsoft.AspNetCore.SpaProxy": {
+            "target": "Package",
+            "version": "[7.0.2, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.AspNetCore.App": {
+            "privateAssets": "none"
+          },
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.102/RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
